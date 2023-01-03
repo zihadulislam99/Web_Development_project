@@ -1,0 +1,42 @@
+Paragraphs | p ==> <p></p>
+
+
+bold | b ==> <b></b>
+strong | strong ==> <strong></strong>
+
+
+italic | i ==> <i></i>
+italic | em ==> <em></em>
+
+
+small | small ==> <small></small>
+
+
+heading | h ==> <h1></h1>, <h2></h2>, <h3></h3>, <h4></h4>, <h5></h5>, <h6></h6>
+
+
+anchor | a ==> <a href=""></a>
+
+
+image | img ==> <img src="" alt="">
+
+
+unordered list | ul ==> <ul></ul>
+ordered list | ol ==> <ol></ol>
+list item | li ==> <li></li>
+
+
+input | input ==> <input type="" placeholder="view">
+text area | textarea ==> <textarea cols="30" rows="10"></textarea>
+
+
+select | select ==> <select name="" id=""></select>
+option | option ==> <option value=""></option>
+
+
+button | button ==> <button></button>
+
+
+form | form ==> <form></form>
+
+comment | ctrl + / ==> <!-- -->
