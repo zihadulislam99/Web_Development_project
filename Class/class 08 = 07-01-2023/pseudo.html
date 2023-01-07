@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h1{
+            color: royalblue;
+            padding: 20px;
+        }
+
+        h1:hover{
+            color: #72e08a;
+            background: pink;
+            padding: 20px;
+            width: 250px;
+        }
+
+        .middle-person:focus{
+            color: #ff3bbe;
+            font-weight: 800;
+            background: #72e08a;
+
+        }
+
+        a:visited{
+            color: #ff3bbe;
+        }
+
+        .fas{
+            color: #c0c0c0;
+        }
+
+        .fas:first-child{
+            color: #ff0000;
+        }
+
+        .fas:last-child{
+            color: #3cff00;
+        }
+
+        .las:nth-child(2n){
+            color: #ff3fa9;
+        }
+        
+        .las:nth-child(2n+1){
+            color: #00ca7d;
+        }
+
+        .hpo::before{
+            content: "Hello ";
+            color: #00f3a2;
+        }
+
+        .hpo::after{
+            content: " Zihad";
+            color: #ff3bbe;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br><br>
+    <a href="https://web.programming-hero.com/">Programming Hero</a><br>
+    <a href="https://marvel.fandom.com/wiki/Kamala_Khan_(Earth-616)">Fandom</a><br>
+    <a href="https://www.youtube.com/">Youtube</a><br><br><br>
+    
+    <h3>middle size header - 1</h3>
+    <h3 class="hpo">middle size header - 2</h3>
+    <h3>middle size header - 3</h3>
+    <h3 class="hpo">middle size header - 4</h3>
+    <h3>middle size header - 5</h3>
+    <h3 class="hpo">middle size header - 6</h3>
+    <h3>middle size header - 7</h3>
+    <h3 class="hpo">middle size header - 8</h3>
+
+    <br><br><br>
+    <ul>
+        <li class="fas">alia</li>
+        <li class="fas">kalia</li>
+        <li class="fas">dalea</li>
+        <li class="fas">bale</li>
+        <li class="fas">sakea</li>
+        <li class="fas">malea</li>
+        <li class="fas">alia</li>
+        <li class="fas">kalia</li>
+        <li class="fas">dalea</li>
+        <li class="fas">bale</li>
+        <li class="fas">sakea</li>
+        <li class="fas">malea</li>
+    </ul>
+    
+    <ul>
+        <li class="las">alia</li>
+        <li class="las">kalia</li>
+        <li class="las">dalea</li>
+        <li class="las">bale</li>
+        <li class="las">sakea</li>
+        <li class="las">malea</li>
+        <li class="las">alia</li>
+        <li class="las">kalia</li>
+        <li class="las">dalea</li>
+        <li class="las">bale</li>
+        <li class="las">sakea</li>
+        <li class="las">malea</li>
+    </ul>
+
+
+</body>
+</html>
