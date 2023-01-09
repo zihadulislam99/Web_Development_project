@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+
+        }
+        .ligin-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            border: 1px solid salmon;
+        }
+        .login-form input{
+            margin-top: 1em;
+            font-size: 1em;
+            padding: 5px 10px;
+        }
+        .login-form input[type="submit"]{
+            background-color: #2292dd;
+            border: 0;
+            border-radius: 5px;
+            color: antiquewhite;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">Dashbord</a>
+                <a href="">Inventory</a>
+            </span>
+            <span>
+                <a href="">Login</a>
+                <a href="">User</a>
+            </span>
+        </nav>
+    </header>
+    <section class="ligin-container">
+        <form class="login-form">
+            <h2>Please Login</h2>
+            <input type="email" placeholder="Your Email" required>
+            <input type="password" name="" id="" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</body>
+</html>
