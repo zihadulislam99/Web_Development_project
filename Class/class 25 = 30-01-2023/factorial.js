@@ -11,5 +11,5 @@ function factorial(number){
     return result;
 }
 
-const result = factorial(9);
+const result = factorial(3);
 console.log(result);
