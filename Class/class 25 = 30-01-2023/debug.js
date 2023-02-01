@@ -7,5 +7,5 @@ function getFactorial(number){
     return factorial;
 }
 
-const factorial = getFactorial(12);
+const factorial = getFactorial(93);
 console.log('factorial of 8 is: ', factorial);
