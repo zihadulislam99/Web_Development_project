@@ -18,7 +18,7 @@ const products = [
     {id: 6, name: 'Samsung Phone note 7', price: 19000},
     {id: 7, name: 'Nokia old age Phone gone', price: 19000},
     {id: 8, name: 'Phone one', price: 19000},
-    {id: 8, name: 'M1 chip not cheap LapTOP', price: 19000},
+    {id: 9, name: 'M1 chip not cheap LapTOP', price: 19000},
 ];
 
 // for(const product of products){
