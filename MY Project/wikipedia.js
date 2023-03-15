@@ -3,5 +3,6 @@ const wikipedia = async(searchText) =>{
     const res = await fetch(url);
     const data = await res.json();
     console.log(data.query.pages);
+    // if(data.Response == "True") DisplayWikipediaData(data.query.pages);
 }
 // wikipedia("chatGPT");

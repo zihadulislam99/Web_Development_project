@@ -3,6 +3,15 @@ const imdb = async(searchText) =>{
     const res = await fetch(url);
     const data = await res.json();
     console.log(data);
-    // if(data.Response == "True") displayMovieList(data.Search);
+    // if(data.Response == "True") DisplayMovieList(data.Search);
 }
 imdb("rrr")
+
+const imdbid = async(imdbid) =>{
+    const url = `http://www.omdbapi.com/?i=${imdbid}&apikey=fc1fef96`;
+    const res = await fetch(url);
+    const data = await res.json();
+    console.log(data);
+    // if(data.Response == "True") DisplayMovieList(data.Search);
+}
+// imdbid("tt14681510")
