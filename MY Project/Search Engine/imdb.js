@@ -2,10 +2,10 @@ const imdb = async(searchText) =>{
     const url = `https://omdbapi.com/?s=${searchText}&page=1&apikey=fc1fef96`;
     const res = await fetch(url);
     const data = await res.json();
-    console.log(data.Search[0]);
+    console.log(data);
     // if(data.Response == "True") DisplayMovieList(data.Search);
 }
-// imdb("rrr")
+imdb("rrr")
 
 const imdbid = async(imdbid) =>{
     const url = `http://www.omdbapi.com/?i=${imdbid}&apikey=fc1fef96`;
@@ -40,4 +40,4 @@ const paragraph = (paragraphdata) =>{
     `)
     console.log(Movie)
 };
-imdbid("tt8178634")
+// imdbid("tt8178634")

@@ -1,0 +1,11 @@
+====================vitejs==================
+npm create vite@latest [my project name] --template reast
+cd [my project name]
+npm install
+npm run dev
+
+
+====================react===================
+npx create-react-app [my project name]
+cd [my project name]
+npm start
