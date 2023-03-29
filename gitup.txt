@@ -5,6 +5,7 @@ git branch -M main
 git remote add origin https://github.com/zihadulislam99/Web_Development_project.git
 git push -u origin main
 
+git remote set-url origin https://github.com/zihadulislam99/Web_Development_project.git
 
 git add .
 git commit -m "git push"
