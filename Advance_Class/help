@@ -9,3 +9,10 @@ npm run dev
 npx create-react-app [my project name]
 cd [my project name]
 npm start
+
+
+
+cd [my project name]
+npm run build
+cd build
+surge
